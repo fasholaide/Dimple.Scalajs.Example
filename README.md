@@ -28,10 +28,8 @@ Sample lines of code to draw a bar chart is as follows:
     //Draw and See.
     chart.draw()
   ```
-  
-![Alt text](/Dimple.Scalajs.Example/Dimple.Scalajs.ExampleBar.scrnSht.png?raw=true "Optional Title")
 
-    
+![Alt text](/Dimple.Scalajs.Example/Dimple.Scalajs.ExampleBar.scrnSht.png?raw=true "Bar Chart")
+
 Play with this!
-
 Ahoy!
