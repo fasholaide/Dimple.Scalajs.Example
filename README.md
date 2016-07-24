@@ -1,7 +1,7 @@
 # Dimple.Scalajs.Example
-A Sample Application with Dimple.Scalajs. This application constructs both a bar chart and a line chart.
-To run this application, run `sbt fastOptJS`. This will create new js files for you in the target/scala-2.11. Of utmost importance are the scalatags-launcher.js, scalatags.jsdeps.js, and scalatags-fastopt.js files. 
-These files should be added to the html file like this:
+A Sample Application with [Dimple.Scalajs](https://github.com/fasholaide/Dimple.Scalajs). This application constructs both a Bar Chart and a Line Chart.
+To run this application, run `sbt fastOptJS` on your terminal. This will create new .js files for you in the target/scala-2.11 directory. Of utmost importance are the scalatags-launcher.js, scalatags.jsdeps.js, and scalatags-fastopt.js files. 
+These files should be added to the html file:
 ```javascript
 <script type="text/javascript" src="./target/scala-2.11/scalatags-jsdeps.js"></script>
 <script type="text/javascript" src="./target/scala-2.11/scalatags-fastopt.js"></script>
