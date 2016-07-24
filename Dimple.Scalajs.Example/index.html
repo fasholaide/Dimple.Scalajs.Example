@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example Scala.js d3 facade application</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<h1>A Simple Application to show how Scala.js's Dimple.js <a href = https://github.com/fasholaide/Dimple.Scalajs >facade</a> application works! More about Dimple.js can be found on this <a href = https://github.com/PMSI-AlignAlytics/dimple/wiki>wiki</a></h1>
+<p><b>Compile with `sbt fastOptJS`, open this file and you should see a Bar chart and a Line chart.</b></p>
+<p style="color:#0059b3">The Line chart was adapted from <a
+        href=http://dimplejs.org/examples_viewer.html?id=lines_horizontal>here</a></p>
+<div id="barContainer"></div>
+<div id="lineContainer"></div>
+<script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+<script type="text/javascript" src="./target/scala-2.11/scalatags-jsdeps.js"></script>
+<script type="text/javascript" src="./target/scala-2.11/scalatags-fastopt.js"></script>
+<script type="text/javascript" src="./target/scala-2.11/scalatags-launcher.js"></script>
+</body>
+</html>
