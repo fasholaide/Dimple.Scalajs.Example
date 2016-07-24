@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dimple-scalajs-example.iml" filepath="$PROJECT_DIR$/.idea/modules/dimple-scalajs-example.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dimple-scalajs-example-build.iml" filepath="$PROJECT_DIR$/.idea/modules/dimple-scalajs-example-build.iml" />
-    </modules>
-  </component>
-</project>
