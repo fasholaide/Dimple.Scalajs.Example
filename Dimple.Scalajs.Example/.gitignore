@@ -13,3 +13,4 @@ dist
 /.settings
 *.log
 .idea
+src/test/
