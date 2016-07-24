@@ -7,8 +7,7 @@ These files should be added to the html file like this:
 <script type="text/javascript" src="./target/scala-2.11/scalatags-fastopt.js"></script>
 <script type="text/javascript" src="./target/scala-2.11/scalatags-launcher.js"></script>
 ```
-
-A sample lines of code to draw a bar chart is as follows:
+Sample lines of code to draw a bar chart is as follows:
 ```scala
     //Create a new SVG Object to hang the drawing. Equivalent to the dimple.newsvg function
     val svg = Dimple.newSvg("#barContainer", 590, 400) 
