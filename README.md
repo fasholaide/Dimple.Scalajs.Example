@@ -32,4 +32,5 @@ Sample lines of code to draw a bar chart is as follows:
 ![Alt text](/Dimple.Scalajs.Example/Dimple.Scalajs.ExampleBar.scrnSht.png?raw=true "Bar Chart")
 
 Play with this!
+
 Ahoy!
