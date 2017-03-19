@@ -1,7 +1,6 @@
 package org.scalajs.dimplejs
 
 import org.scala.dimplejs._
-import org.scalajs.dom.raw.{SVGTextElement, SVGTextContentElement, SVGElement}
 import org.singlespaced.d3js.d3
 import scala.scalajs.js
 
@@ -46,7 +45,7 @@ class DataFromFile {
         println(eventArgs.xValue)
       })
 
-      val storyBoard = new StoryBoard(chart, js.Array("Month", "Brand"))
+      val storyBoard = new StoryBoard(chart, js.Array("Month"))
       storyBoard.autoplay = true
       storyBoard.addOrderRule("Month")
       chart.storyboard = storyBoard

@@ -10,5 +10,6 @@ class DimpleJSExample extends js.JSApp {
   def main(): Unit = {
     new BarChart().visualize()
     new DataFromFile().visualize()
+    new AdvancedExample().visualize()
   }
 }
