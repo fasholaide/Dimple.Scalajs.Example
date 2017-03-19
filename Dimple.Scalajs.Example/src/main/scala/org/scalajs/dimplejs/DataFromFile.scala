@@ -1,6 +1,7 @@
 package org.scalajs.dimplejs
 
 import org.scala.dimplejs._
+import org.scalajs.dom.raw.{SVGTextElement, SVGTextContentElement, SVGElement}
 import org.singlespaced.d3js.d3
 import scala.scalajs.js
 
@@ -32,13 +33,25 @@ class DataFromFile {
       chart.addMeasureAxis("y", "Unit Sales")
 
       //Set the Plot Function of the Chart
-      chart.addSeries(plotFunction = PlotBar)
+      chart.addSeries(plotFunction = PlotLine)
 
       //Create the Color Object for the Chart
       val color = new Color(fill = "#333333", opacity = 0.2F)
       chart.defaultColors = js.Array(color)
 
-      //Call the draw funsction to draw the Chart
+      //This is for adding an Event Listener to the Series.
+      val mySeries = chart.addSeries("Brand", PlotBubble)
+
+      mySeries.addEventHandler("click", (eventArgs: EventArgs) => {
+        println(eventArgs.xValue)
+      })
+
+      val storyBoard = new StoryBoard(chart, js.Array("Month", "Brand"))
+      storyBoard.autoplay = true
+      storyBoard.addOrderRule("Month")
+      chart.storyboard = storyBoard
+
+      //Call the draw function to draw the Chart
       chart.draw()
 
       //Return a dummy Unit
