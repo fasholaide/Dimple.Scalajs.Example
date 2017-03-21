@@ -36,7 +36,7 @@ class AdvancedExample {
       ring.innerRadius = "-10px"
       pie.outerRadius = "-15px"
 
-      //          // Draw averages for the pie and ring
+      // Draw averages for the pie and ring
       ring.aggregate = AggregateMethod.avg _
       pie.aggregate = AggregateMethod.avg _
 
